@@ -36,6 +36,7 @@
       "estoque": 10
     }
   ],
+
   "clientes": [
     {
       "nome": "João",
