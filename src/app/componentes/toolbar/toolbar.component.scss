@@ -1,0 +1,51 @@
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+
+.topnav {
+  background-color: #0d3488;
+  color: white;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 60px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.links {
+  margin-right: 2em;
+}
+
+.links a {
+  color: rgb(224, 224, 224);
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding: 0.5em;
+  margin-left: 1em;
+  transition: 0.3s;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.links a:hover {
+  scale: 1.02;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.example-table {
+  width: 100%;
+}
+
+.example-row {
+  text-align: left;
+}
+
+.active {
+  background-color: #cc880a;
+  scale: 1.02;
+  border-radius: 20px;
+}

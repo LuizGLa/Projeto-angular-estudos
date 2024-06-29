@@ -1,0 +1,106 @@
+{
+  "produtos": [
+    {
+      "nome": "Pão de queijo",
+      "descricao": "Nome de um salgado tipico brasileiro",
+      "imagemUrl": "",
+      "preco": "150",
+      "estoque": 10
+    },
+    {
+      "nome": "Coxinha",
+      "descricao": "Nome de um salgado tipico brasileiro",
+      "imagemUrl": "",
+      "preco": "200",
+      "estoque": 10
+    },
+    {
+      "nome": "Pastel",
+      "descricao": "Nome de um salgado tipico brasileiro",
+      "imagemUrl": "",
+      "preco": "250",
+      "estoque": 10
+    },
+    {
+      "nome": "Empada",
+      "descricao": "Nome de um salgado tipico brasileiro",
+      "imagemUrl": "",
+      "preco": "300",
+      "estoque": 10
+    },
+    {
+      "nome": "Bolinho de bacalhau",
+      "descricao": "Nome de um salgado tipico brasileiro",
+      "imagemUrl": "",
+      "preco": "350",
+      "estoque": 10
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "João",
+      "sexo": "M",
+      "salario": 1000
+    },
+    {
+      "nome": "Maria",
+      "sexo": "F",
+      "salario": 1500
+    },
+    {
+      "nome": "Pedro",
+      "sexo": "M",
+      "salario": 2000
+    },
+    {
+      "nome": "Ana",
+      "sexo": "F",
+      "salario": 2500
+    },
+    {
+      "nome": "José",
+      "sexo": "M",
+      "salario": 3000
+    },
+    {
+      "nome": "Luis",
+      "sexo": "M",
+      "salario": 3500
+    },
+    {
+      "nome": "Mariana",
+      "sexo": "F",
+      "salario": 4000
+    },
+    {
+      "nome": "Rafael",
+      "sexo": "M",
+      "salario": 4500
+    },
+    {
+      "nome": "Isabella",
+      "sexo": "F",
+      "salario": 5000
+    },
+    {
+      "nome": "Lucas",
+      "sexo": "M",
+      "salario": 5500
+    },
+    {
+      "nome": "Julia",
+      "sexo": "F",
+      "salario": 6000
+    },
+    {
+      "nome": "André",
+      "sexo": "M",
+      "salario": 6500
+    },
+    {
+      "nome": "Patrícia",
+      "sexo": "F",
+      "salario": 7000
+    }
+  ]
+}
