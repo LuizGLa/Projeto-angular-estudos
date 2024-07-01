@@ -8,6 +8,7 @@ import { BehaviorSubject, Observable, map, of, tap } from 'rxjs';
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import { HomeService } from '../services/home.service';
 
 
 interface Pessoas {
@@ -34,19 +35,9 @@ interface Pessoas {
 export class HomeComponent implements AfterViewInit {
   displayedColumns: string[] = ['nome', 'sexo', 'salario'];
 
-  frutas: string[] = []
-  frutas$ = of('banana', 'maçã', 'uva', 'pessego')
 
-  constructor() {
-    this.frutas$.pipe(
-      tap(console.log),
-      map(fruta => fruta.toUpperCase()),
-      tap(console.log),
-    ).subscribe(
-      resultado => {
-        this.frutas.push(resultado)
-      }
-    );
+  constructor(private homeService: HomeService) {
+
   }
 
   clientes!: Pessoas[]
@@ -54,7 +45,13 @@ export class HomeComponent implements AfterViewInit {
   @ViewChild(MatPaginator)
   paginator!: MatPaginator;
   ngOnInit(): void {
-    this.dataSource = new MatTableDataSource(this.clientes);
+    this.homeService.buscaClientes().subscribe(
+      clientes => {
+        this.clientes = clientes;
+        this.dataSource = new MatTableDataSource(clientes);
+      }
+    );
+
   }
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;

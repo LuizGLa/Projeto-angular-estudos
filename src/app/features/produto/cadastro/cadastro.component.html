@@ -1,1 +1,33 @@
-<p>cadastro works!</p>
+<div class="mt-7 flex justify-center align-items-center">
+  <mat-icon>{{icon}}</mat-icon>
+  <h2 class="text-center">{{tituloPagina}}
+  </h2>
+</div>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Título</mat-label>
+    <input matInput placeholder="Título do produto" [(ngModel)]="nome" [ngModelOptions]="{standalone: true}">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Preço</mat-label>
+    <input matInput placeholder="Preço do produto" [(ngModel)]="preco" [ngModelOptions]="{standalone: true}">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Estoque</mat-label>
+    <input type="number" matInput placeholder="Estoque o estoque" [(ngModel)]="estoque"
+      [ngModelOptions]="{standalone: true}">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Link de imagem</mat-label>
+    <input matInput placeholder="Imgem do produto" [(ngModel)]="imagemUrl" [ngModelOptions]="{standalone: true}">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Descrição</mat-label>
+    <textarea matInput placeholder="Descrição do produto" [(ngModel)]="descricao" [ngModelOptions]="{standalone: true}">
+
+    </textarea>
+  </mat-form-field>
+
+  <button (click)="salvarProduto()" mat-raised-button color="primary">Salvar</button>
+
+</form>

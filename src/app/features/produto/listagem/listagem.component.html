@@ -1,1 +1,26 @@
-<p>listagem d works!</p>
+<div class="w-full px-5 py-2">
+  <button mat-raised-button color="primary" (click)="adicionarProduto()">
+    Cadastrar produto
+    <mat-icon matSuffix>add_circle_outline</mat-icon>
+  </button>
+  <div class="grid gap-4 mt-2 text-white">
+    <mat-card style="cursor: pointer;" *ngFor="let produto of produtos" (click)="selecionaProduto(produto)"
+      class="rounded overflow-hidden shadow-md">
+      <mat-card-header style="padding: 0.5em;">
+        <div class="ml-2">
+          <mat-card-title>{{produto.nome}}</mat-card-title>
+          <mat-card-subtitle>{{produto.estoque}} unidades</mat-card-subtitle>
+        </div>
+      </mat-card-header>
+      <img class="example-header-image" [src]="produto.imagemUrl" alt="Photo of a Shiba Inu">
+      <mat-card-content class="mt-2">
+        <p>
+          {{produto.descricao}}
+        </p>
+        <p>
+          R$ {{produto.preco | currency: 'BRL':true}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

@@ -1,107 +1,116 @@
 {
   "produtos": [
     {
-      "nome": "Pão de queijo",
-      "descricao": "Nome de um salgado tipico brasileiro",
-      "imagemUrl": "",
+      "nome": "Teclado Gamer",
+      "descricao": "Teclado gamer RGB multi-devices",
+      "imagemUrl": "https://m.media-amazon.com/images/I/61nvk16RZrL._AC_SX679_.jpg",
       "preco": "150",
-      "estoque": 10
+      "estoque": 12,
+      "id": "27d1"
     },
     {
-      "nome": "Coxinha",
-      "descricao": "Nome de um salgado tipico brasileiro",
-      "imagemUrl": "",
-      "preco": "200",
-      "estoque": 10
+      "id": "482c",
+      "nome": "Mouse Gamer",
+      "descricao": "Mouse gamer RGB 1200dpi",
+      "imagemUrl": "https://m.media-amazon.com/images/I/61nvk16RZrL._AC_SX679_.jpg",
+      "preco": "5883",
+      "estoque": 5634
     },
     {
-      "nome": "Pastel",
-      "descricao": "Nome de um salgado tipico brasileiro",
-      "imagemUrl": "",
-      "preco": "250",
-      "estoque": 10
+      "id": "cdfd",
+      "nome": "Monitor Ultra Wide",
+      "descricao": "Monitor Ultra Wide 29 polegadas IPS 144ms",
+      "imagemUrl": "https://m.media-amazon.com/images/I/51Ufkd4a13L._AC_SX679_.jpg",
+      "preco": "1699",
+      "estoque": 52
     },
     {
-      "nome": "Empada",
-      "descricao": "Nome de um salgado tipico brasileiro",
-      "imagemUrl": "",
-      "preco": "300",
-      "estoque": 10
+      "id": "f426",
+      "nome": "Notebook Gamer",
+      "descricao": "Notebook Gamer com placa dedicada",
+      "imagemUrl": "https://m.media-amazon.com/images/I/61tegGxILZL._AC_SX679_.jpg",
+      "preco": "5000",
+      "estoque": 23
     },
     {
-      "nome": "Bolinho de bacalhau",
-      "descricao": "Nome de um salgado tipico brasileiro",
-      "imagemUrl": "",
-      "preco": "350",
-      "estoque": 10
+      "id": "b2ae",
+      "nome": "Cadeira gamer",
+      "descricao": "Cadeira gamer rgb Mancer",
+      "imagemUrl": "https://www.comfy.com.br/media/catalog/product/cache/be00e66d6037499d540c5ce12579d442/c/a/cadeira_gamer_xperience_sport_cinza_base_girat_ria_1.webp",
+      "preco": "3333",
+      "estoque": 45
     }
   ],
-
   "clientes": [
     {
-      "nome": "João",
-      "sexo": "M",
-      "salario": 1000
+      "nome": "Maria Santos",
+      "sexo": "f",
+      "idade": 29,
+      "salario": 4000,
+      "id": "277b"
     },
     {
-      "nome": "Maria",
-      "sexo": "F",
-      "salario": 1500
+      "nome": "João Silva",
+      "sexo": "m",
+      "idade": 42,
+      "salario": 7000,
+      "id": "799a"
     },
     {
-      "nome": "Pedro",
-      "sexo": "M",
-      "salario": 2000
+      "nome": "Ana Costa",
+      "sexo": "f",
+      "idade": 31,
+      "salario": 5500,
+      "id": "ee85"
     },
     {
-      "nome": "Ana",
-      "sexo": "F",
-      "salario": 2500
+      "nome": "José Oliveira",
+      "sexo": "m",
+      "idade": 26,
+      "salario": 3500,
+      "id": "6bc0"
     },
     {
-      "nome": "José",
-      "sexo": "M",
-      "salario": 3000
+      "nome": "Paula Alves",
+      "sexo": "f",
+      "idade": 35,
+      "salario": 6000,
+      "id": "4f6e"
     },
     {
-      "nome": "Luis",
-      "sexo": "M",
-      "salario": 3500
+      "nome": "Carlos Rodrigues",
+      "sexo": "m",
+      "idade": 38,
+      "salario": 8000,
+      "id": "f508"
     },
     {
-      "nome": "Mariana",
-      "sexo": "F",
-      "salario": 4000
+      "nome": "Beatriz Santos",
+      "sexo": "f",
+      "idade": 27,
+      "salario": 4500,
+      "id": "9ea7"
     },
     {
-      "nome": "Rafael",
-      "sexo": "M",
-      "salario": 4500
+      "nome": "Rafaela Souza",
+      "sexo": "f",
+      "idade": 33,
+      "salario": 7000,
+      "id": "7d0c"
     },
     {
-      "nome": "Isabella",
-      "sexo": "F",
-      "salario": 5000
+      "nome": "Lucas Almeida",
+      "sexo": "m",
+      "idade": 29,
+      "salario": 4200,
+      "id": "2218"
     },
     {
-      "nome": "Lucas",
-      "sexo": "M",
-      "salario": 5500
-    },
-    {
-      "nome": "Julia",
-      "sexo": "F",
-      "salario": 6000
-    },
-    {
-      "nome": "André",
-      "sexo": "M",
-      "salario": 6500
-    },
-    {
-      "nome": "Patrícia",
-      "sexo": "F",
-      "salario": 7000
+      "nome": "André Costa",
+      "sexo": "m",
+      "idade": 41,
+      "salario": 9000,
+      "id": "d39f"
     }
   ]
 }
